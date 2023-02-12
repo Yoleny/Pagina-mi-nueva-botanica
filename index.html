@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Mi Sitio web</title>
+
+
+    <section class="container-fluid" id="inicio">
+        <div class="row">
+            <div class="col-12 p-0">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="/Img/icono.svg" width="48px" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#presentacion">Nostros</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link " href="" tabindex="-1" aria-disabled="true">Más Información</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="..." aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-12 mt-5">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/img/img1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/img2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/img3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev row-carousel" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next row-carousel" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <section class="container mt-5" id="presentacion">
+                    <div class="row">
+                        <div class="col-12 text-center mb-5">
+                            <h1>Mi Nueva Botanica</h1>
+                            <p>Los botánicos estudian la vida de las plantas en todos sus estadios. Observan cómo y
+                                dónde crecen las plantas, estudian sus células, e investigan el impacto que los
+                                productos químicos y las enfermedades tienen sobre ellas</p>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <img src="/img/card1.jpg" class="card-img-top" alt="Girasol">
+                                <div class="card-body">
+                                    <p class="card-text">Helianthus annuus, también llamado comúnmente girasol, mirasol,
+                                        maravilla, maíz de teja, acahual​ es una planta herbácea anual de la familia de
+                                        las asteráceas originaria de Centro y Norteamérica y cultivada como alimenticia,
+                                        oleaginosa y ornamental en todo el mundo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <img src="/img/card2.jpg" class="card-img-top" alt="Lirio de la paz">
+                                <div class="card-body">
+                                    <p class="card-text">El lirio de paz es una de las flores más deseadas por su
+                                        elegante hermosura y su especial significado, pues es considerada una planta
+                                        mágica que atrae la paz y la prosperidad, incluso, en diferentes regiones del
+                                        mundo tienen la creencia de que se trata de un amuleto de la suerte..</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <img src="/img/card3.jpg" class="card-img-top" alt="Escudo persa">
+                                <div class="card-body">
+                                    <p class="card-text">Son plantas herbáceas tropicales que apenas superan el medio
+                                        metro de altura cultivadas en macetas. Son interesantes por sus bellas hojas
+                                        lanceoladas (de hasta 20 cm de longitud) de marcados nervios verdes con fondo
+                                        rosado y toques plateados. No suelen florecer pero si lo hace produce espigas de
+                                        flores azuladas en otoño</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container-fluid mt-5" id="form">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <form class="row">
+                                <div class="col-auto">
+                                    <label for="staticEmail2" class="visually-hidden">Email</label>
+                                    <input type="text" readonly class="form-control-plaintext" id="staticEmail2"
+                                        value="Agregue se correo">
+                                </div>
+                                <div class="col-auto">
+                                    <label for="inputPassword2" class="visually-hidden">Contraseña</label>
+                                    <input type="password" class="form-control" id="inputPassword2"
+                                        placeholder="*******">
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn mb-5">Corfirmar correo</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <section class="container-fluid my-5" id="footer">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4 info">
+                            <h3>Mi Botanica</h3>
+                            <p>Direccion:<span> Col. Cofradia</span></p>
+                            <p>Telefono:<span> 5555.5555</span></p>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <ul class="list-group menu-f">
+                                <li class="list-group-item"><a href="#">Inicio</a></li>
+                                <li class="list-group-item"><a href="#">Nosotros</a></li>
+                                <li class="list-group-item"><a href="#">Mas Informacion</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+                <ul class="list-group list-group-horizontal social">
+                    <li class="list-group-item"><a href=""><img src="/Img/Whatsap.png "  alt="Whatsap"></a>
+                    </li>
+                    <li class="list-group-item"><a href=""><img src="/Img/Instagram.png" 
+                                alt="Instagram"></a></li>
+                    <li class="list-group-item"><a href=""><img src="/Img/Facebook.png" alt="Facebook"></a>
+                    </li>
+                    <li class="list-group-item"><a href=""><img src="/Img/Telegram.png"  alt="Telegram"></a>
+                    </li>
+            </div>
+        </div>
+        </div>
+    </section>
+    </div>
+    </div>
+    </section>
+
+</head>
+
+<body>
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
